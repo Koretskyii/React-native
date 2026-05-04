@@ -1,50 +1,13 @@
-# Welcome to your Expo app 👋
+# Лабораторна робота №3: Кастомні жести та стилізація
+## 🎯 Мета
+Навчитися працювати з жестами користувача (свайпи, тапи) та застосувати сучасні підходи до стилізації.
+## 🛠 Що було використано
+- **Жести:** Бібліотека `react-native-gesture-handler`.
+- **Стан:** `Context API` для збереження прогресу гри та теми оформлення.
+- **Стилізація:** `styled-components` для React Native (світла/темна теми).
+## 📱 Опис застосунку
+Розроблено гру-клікер. Користувач взаємодіє з екраном за допомогою жестів (наприклад, подвійний тап або довге натискання), щоб заробляти "монетки". Інтерфейс повністю стилізовано через Styled Components, а глобальний стейт зберігає налаштування поточної теми (Світла/Темна), яка миттєво змінює вигляд всього додатку.
+## 📸 Скріншоти
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
-
-## Get started
-
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 📝 Висновок
+Ця робота дозволила заглибитися в розширені взаємодії з користувачем. Я навчився відслідковувати складні жести, відмінні від звичайного кліку, а також освоїв патерн "Темна тема" через Context Provider та Styled Components.
